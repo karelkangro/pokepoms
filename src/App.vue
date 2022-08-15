@@ -27,7 +27,7 @@ import { ref, computed } from 'vue'
 
 const selected = ref(null)
 let imageStyles = ref({
-  width: '100%',
+  maxWidth: '20rem',
   height: 'auto',
   opacity: 1,
   transition: 'all 0.2s ease-in-out',
