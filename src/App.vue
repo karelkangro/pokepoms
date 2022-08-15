@@ -48,10 +48,6 @@ const onButtonClick = () => {
   }
 }
 
-const checkTransform = () => {
-  console.log('🍎 transfor', imageStyles.value);
-}
-
 const pokemons = computed(() => {
 
   if(selected.value) return API_DATA[selected.value]
